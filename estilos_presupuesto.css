@@ -1,0 +1,45 @@
+
+.presupuesto_titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 100px
+}
+
+.presupuesto_tabla {
+  width: 60%;
+  margin: auto;
+  border-collapse: collapse;
+  border: 2px solid #000;
+  background-color: #ffffff;
+}
+
+.presupuesto_tabla th,
+.presupuesto_tabla td {
+  padding: 12px;
+  text-align: center;
+  border: 3px solid #1a0202;
+}
+
+.presupuesto_tabla th {
+  background-color: #d86f19;
+  color: #fff;
+}
+
+.presupuesto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.presupuesto input {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #726969;
+}
+
+.presupuesto_boton {
+  padding: 8px 16px;
+}
