@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './analistaSiniestro.css';
 
-function App() {
+function AnalistaSiniestro() {
   const [showTallerModal, setShowTallerModal] = useState(false);
   const [showAsistenciaModal, setShowAsistenciaModal] = useState(false);
 
@@ -73,4 +73,4 @@ function App() {
   );
 }
 
-export default App;
+export default AnalistaSiniestro;
