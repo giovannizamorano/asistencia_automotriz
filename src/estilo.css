@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/677/104/small/white-background-with-blue-geometric-and-white-line-pattern-free-vector.jpg);
+}
+.from{
+    background-color:#fff;
+    padding: 3px;
+}
+h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: "212F3C";
+    text-align: center;
+}
+.container{
+    padding: 15px;
+    width: 100%;
+}
+.container-inputs{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    border: solid 1px #ccc;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.p1[type="text"]{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-left: 10px;
+    width: 95%;
+}
+input[type="dic"]{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-left: 10px;
+    width: 95%;
+}input[type="comu"]{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin-left: 10px;
+    width: 90%;
+}
+.button{
+    margin-top: 20px;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.3rem;
+    color: #fff;
+    background-color: #283747;
+    border-radius: 5px;
+
+}
+
+
+p{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media screen and (min-width: 767px){
+    .from{
+        margin: auto;
+        width: 520px;
+        margin-top: 50px;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    .container-inputs{
+        font-size: 19px;
+        padding: 10px;
+        margin-right: 10px;
+    }
+    input[type="text"]{
+        width: 90%;
+        font-size: 19px;
+    }
+
+    }
