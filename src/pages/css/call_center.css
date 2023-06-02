@@ -1,0 +1,58 @@
+.App-titulo{
+  align-items: left;
+  color: azure;
+  
+}
+
+.App-header {
+  /*background-image: url("C:\Users\Giova\OneDrive\Escritorio\semestre 1-2023\Programacion\programacion web\trabajos\call_center_js\img\banner.png");*/
+  background-color: rgb(18, 30, 41);
+  font-size:20px;
+   font-family:Courier;
+   font-weight:bold;
+   font-style:italic;
+   line-height:50px;
+   letter-spacing:1px;
+   text-transform:capitalize;
+   text-align:left;
+   text-indent:100px;
+   color: azure;
+}
+
+.App-body {
+  background-color: #e9ebf1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  text-indent:100px;
+}
+
+.App-table{
+      width: 80%;
+      background-color: #1a1919;
+      color: rgb(255, 255, 255);
+    }
+
+.App-footer{
+      clear: both;
+      height: 25px;
+      background-color: #000000;
+    }
+
+.App-menu{
+  color: azure;
+  list-style:none;
+  display: flex;
+  float: left;
+  font-size:20px;
+   font-weight:bold;
+   font-style:italic;
+   line-height:100px;
+   letter-spacing:1px;
+   text-transform:capitalize;
+   text-align:left;
+   text-indent:50px;
+}

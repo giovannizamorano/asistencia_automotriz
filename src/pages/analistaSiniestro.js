@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './analistaSiniestro.css';
+import './css/analistaSiniestro.css';
 
 function AnalistaSiniestro() {
   const [showTallerModal, setShowTallerModal] = useState(false);
@@ -24,6 +24,11 @@ function AnalistaSiniestro() {
 
   return (
     <div className="container">
+        <nav>
+            <ul>
+                <li className="App-menu"><a href="/" rel="nofollow">Menu Principal</a></li>
+            </ul>
+        </nav>
       <button className="button" onClick={openTallerModal}>Gestionar Taller</button>
       <button className="button" onClick={openAsistenciaModal}>Consultar Asistencia de Grúa</button>
 

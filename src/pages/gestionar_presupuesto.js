@@ -1,5 +1,5 @@
 
-import './estilos_presupuesto.css';
+import './css/estilos_presupuesto.css';
 import React, { useState } from 'react';
 
 function TablaPresupuesto() {
@@ -23,6 +23,11 @@ function TablaPresupuesto() {
 
   return (
     <div> 
+      <nav>
+            <ul>
+                <li className="App-menu"><a href="/" rel="nofollow">Menu Principal</a></li>
+            </ul>
+        </nav>
       <h1 className="presupuesto_titulo">Gestión de presupuesto</h1>
       <table className="presupuesto_tabla">
         <thead>
